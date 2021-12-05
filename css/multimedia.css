@@ -1,0 +1,166 @@
+body{
+
+    background-image: url("../img/fondo.png");
+   background-size:150% 150%;
+
+}
+
+
+#principal{
+
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+    padding-top: 3%;    
+    padding-left: 5%;
+}
+
+#pantalla{
+
+    display: grid;
+    margin-top: 9%;
+    grid-template-rows: 1fr 100px;
+    justify-content: center;
+
+}
+
+#display{
+
+    position: relative;
+     overflow: hidden; 
+     height: 450px; 
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+#controles{
+
+    display: grid;
+    grid-template-columns: repeat(7,50px);
+    padding-left: 2%;
+    transition: 0.4s transform;
+    background: black;
+
+}
+
+.controlVisible{
+
+     transform: translateY(-36px); 
+}
+
+progress{
+
+   
+    border: 1px solid black;
+   
+}
+
+
+#navegadorVideos{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: space-between;
+   
+}
+
+button{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+
+button:hover{
+
+    transform:scale(1.1);
+}
+
+#mute{
+
+    background-image: url('../img/mute.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#play{
+
+    background-image: url('../img/play.png');
+    background-size: 100% 100%;
+}
+
+#reiniciar{
+
+    background-image: url('../img/reiniciar.png');
+    background-size: 100% 100%;
+}
+
+#rew{
+
+    background-image: url('../img/rew.png');
+    background-size: 100% 100%;
+}
+
+#for{
+
+    background-image: url('../img/for.png');
+    background-size: 100% 100%;
+}
+
+#volUp{
+
+    background-image: url('../img/volumeUp.png');
+    background-size: 100% 100%;
+}
+
+#volDown{
+
+    background-image: url('../img/volumeDown.png');
+    background-size: 100% 100%;
+}
+
+#pause{
+
+
+    background-image: url('../img/pause.png');
+    background-size: 100% 100%;
+}
+
+.videoSecundario:hover{
+
+    transform:scale(1.1);
+  
+}
+
+#banner{
+
+    position: absolute;
+    left: 190px; 
+    top: 40px;
+    background: orangered;
+    width: 400px;
+    height: 300px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#textBanner{
+
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#cerrarBanner{
+
+    background: transparent;
+    border: none;
+    font-size: 300%;
+
+}

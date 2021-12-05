@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('css/multimedia.css');
+    </style>
+    <script src="js/multimedia.js"></script>
+</head>
+
+<body>
+    <div id="principal">
+        <div id="pantalla">
+            <div id="display">
+                <video id="enReproduccion" width="800">
+                    <source src="video/joker.mp4" type="audio/mp4">
+                </video>
+                <!-- <progress value="0" max="500"></progress> -->
+                <div id="controles">
+                    <button id="mute"></button>
+                    <button id="rew"></button>
+                    <button id="play"></button>
+                    <button id="for"></button>
+                    <button id="reiniciar"></button>
+                    <button id="volUp"></button>
+                    <button id="volDown"></button>
+                </div>
+            </div>         
+        </div>
+        <div id="navegadorVideos">
+
+            <div class="videoSecundario">
+                <video width="300" >
+                    <source src="video/avengers.mp4" type="audio/mp4">
+                </video>
+            </div>
+            <div class="videoSecundario">
+                <video width="300" >
+                    <source src="video/netflix.mp4" type="audio/mp4">
+                </video>
+
+            </div>
+            <div class="videoSecundario">
+                <video width="300" >
+                    <source src="video/starWars.mp4" type="audio/mp4">
+                </video>
+            </div>
+            <div class="videoSecundario">
+                <video width="300" >
+                    <source src="video/sonic.mp4" type="audio/mp4">
+                </video>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
